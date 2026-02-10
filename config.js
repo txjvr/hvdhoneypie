@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jaylord",
+    valentineName: "jaylord",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -22,14 +22,14 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "crush mo ba ako?",                                    // First interaction
+            text: "the sunshine in my heart is you, can i hold your heart honey?",                                    // First interaction
             yesBtn: "yes",                                             // Text for "Yes" button
             noBtn: "no",                                               // Text for "No" button
-            secretAnswer: "crush na crush na crush ❤️"           // Secret hover message
+            secretAnswer: "omkeee, i love youu ❤️"           // Secret hover message
         },
         second: {
-            text: "crush din kita :P",                          // For the love meter
-            startText: "this much!",                                   // Text before the percentage
+            text: "guess, how much i love you :P",                          // For the love meter
+            startText: "this much?!",                                   // Text before the percentage
             nextBtn: "next ❤️"                                         // Text for the next button
         },
         third: {
@@ -42,26 +42,26 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "I LOVE YOU, JAYLORD 🥰🚀💝",  // Shows when they go past 5000%
-        high: "mwa mwa mwa 🚀💝",              // Shows when they go past 1000%
+        extreme: "HAPPY VALENTINE'S day darling 🥰💝",  // Shows when they go past 5000%
+        high: "mwa mwa mwa 💝",              // Shows when they go past 1000%
         normal: "mwaaaaaaaaaa 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "yay! i love you so much honey 🎉💝💖💝💓",
+        title: "letter from my hert 💓",
         message: "hi, honey! i thank God we met each other. thank you for always making me feel loved. i will always support you in pursuing what you want- whether it be making the biggest corporate or biggest muskel in the world.",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        emojis: "💖💝💋❤️💕"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        backgroundStart: "#a1c4fd",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#c2e9fb",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#4dabf7",     // Medium blue button (stands out)
+        buttonHover: "#74c0fc",          // Lighter blue on hover
+        textColor: "#1c7ed6"             // Deep blue for readable text
     },
 
     // Animation settings
