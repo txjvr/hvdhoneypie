@@ -49,7 +49,7 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "letter from my heart",
+        title: "letter from trixie's heart",
         message: "i thank God we met each other. thank you for always making me feel loved. i will always support you in pursuing what you want- whether it be making the biggest corporate or biggest muskel in the world.",
         emojis: "💋❤️"  // These will bounce around
     },
